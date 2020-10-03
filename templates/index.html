@@ -7,10 +7,19 @@
     <title>Todo App</title>
 </head>
 <body>
-    <div style="margin-top: 100px;" class = "container"></div>
-    <h3>Todo List</h3>
+    <div style="margin-top: 100px;" class="container"></div>
+    <h3 style="margin-left: 60px;">Todo List</h3>
     <hr>
-
+    <form style="margin-left: 60px;" action="/add" method="post">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Todo Baslik</label>
+            <input type="text" class="form-control" name = "title" id="formGroupExampleInput" placeholder="Todo Giriniz..."><br>
+            <button type="submit" class="btn btn-danger">Ekle</button>
+            <hr>
+        </div>
+    
+    
+    </form>
 
 
 
